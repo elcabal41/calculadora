@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <h1 class="titulo">Calculadora</h1>
+
+   <div class="contenedorPadre">
+       <div class="pantalla" id="valorPantalla"></div>
+          <span ></span>
+      <input type="button" onclick="borrar()" value="C" id="borrarTodo" class="botones">
+      <input type="button" onclick="obtenerValor(1)" value="1" id="uno" class="botones">
+      <input type="button" onclick=" obtenerValor(2)" value="2" id="dos" class="botones">
+      <input type="button" onclick="obtenerValor(3)" value="3" id="tres" class="botones">  
+      <input type="button" onclick="obtenerValor(4)" value="4" id="cuatro" class="botones">
+      <input type="button" onclick="obtenerValor(5)" value="5" id="cinco" class="botones">
+      <input type="button" onclick="obtenerValor(6)" value="6" id="seis" class="botones">
+      <input type="button" onclick="obtenerValor(7)" value="7" id= "siete" class="botones">
+      <input type="button" onclick="obtenerValor(8)" value="8" id="ocho" class="botones">
+      <input type="button" onclick="obtenerValor(9)" value="9" id="nueve" class="botones">
+      <input type="button" onclick="obtenerValor(0)" value="0" id="cero" class="botones">
+      <input type="button" onclick="obtenerValor('.')" value="." id="punto" class="botones">
+      <input type="button" onclick="obtenerValor('%')" value="%" id="porciento" class="botones">
+      <input type="button" onclick="obtenerValor('-')" value="-" id="resta" class="botones">
+      <input type="button" onclick="obtenerValor('*')" value="*" id="multiplicacion" class="botones">
+      <input type="button" onclick="obtenerValor('/')" value="/" id="division" class="botones">
+      <input type="button" onclick="obtenerValor('+');" value="+" id="suma" class="botones">
+      <input type="button" onclick="borrar();" value="x" id="borrar" class="botones">
+      <input type="button" onclick="obtenerResultado()" value="=" id="igual" class="botones">
+   </div>
+
+    <script src="js/function.js" charset="utf-8"></script>
+
+  </body>
+</html>
